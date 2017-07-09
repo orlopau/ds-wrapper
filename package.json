@@ -1,0 +1,26 @@
+{
+  "name": "ds-wrapper",
+  "version": "0.0.1",
+  "description": "Digitalstrom wrapper for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrliDevelopment/ds-wrapper.git"
+  },
+  "keywords": [
+    "digitalstrom",
+    "wrapper",
+    "smart-home",
+    "home",
+    "iot"
+  ],
+  "author": "Paul Orlob",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OrliDevelopment/ds-wrapper/issues"
+  },
+  "homepage": "https://github.com/OrliDevelopment/ds-wrapper#readme"
+}
