@@ -22,5 +22,18 @@
   "bugs": {
     "url": "https://github.com/OrliDevelopment/ds-wrapper/issues"
   },
-  "homepage": "https://github.com/OrliDevelopment/ds-wrapper#readme"
+  "homepage": "https://github.com/OrliDevelopment/ds-wrapper#readme",
+  "dependencies": {
+    "loglevel": "^1.4.1",
+    "request": "^2.81.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "commonjs": true,
+      "mocha": true,
+      "es6": true
+    }
+  }
 }
