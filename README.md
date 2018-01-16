@@ -33,7 +33,7 @@ ds.initializeAuthentication('appName', 'username', 'password').then((token) => {
 
 The option to authenticate the token in the user interface is also available, although not recommended.
 
-```
+```js
 retrieveApplicationToken('appName').then((appToken) => {
     console.log(appToken);
 }, (err) => {
