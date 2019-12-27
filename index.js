@@ -8,9 +8,12 @@ const fs = require('fs');
 
 log.setLevel(0);
 
-module.exports = function(ds_ip) {
+module.exports = function(ds_ip, log_level) {
     if(ds_ip === null || ds_ip === undefined){
         throw "No DSS IP specified in constructor!";
+    }
+    if (log_level) {
+        log.setLevel(log_level);
     }
 
     let module = {};
