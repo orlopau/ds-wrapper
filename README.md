@@ -10,8 +10,8 @@ The module can manage the task of retrieving and authenticating the *application
 
 ### Import the module
 ```js
-/* specify dss ip as parameter */
-const ds = require('ds-wrapper')('192.168.188.4');
+/* specify dss ip and loglevel as parameter */
+const ds = require('ds-wrapper')('192.168.188.4', 0);
 ```
 
 ### Retrieving the application token
