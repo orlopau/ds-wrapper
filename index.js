@@ -39,14 +39,14 @@ module.exports = function(ds_ip, log_level) {
             };
 
             request(options, (err, res, body) => {
-                if (!err && res.statusCode === 200) {
+                if (!err && res && res.statusCode === 200) {
                     resolve(body);
                 }
                 else {
                     reject(
                         {
                             error: err,
-                            status_code: res.statusCode,
+                            status_code: res ? res.statusCode : null,
                         });
                 }
             });
