@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/ds-wrapper.png)](https://nodei.co/npm/ds-wrapper/)
+
 # ds-wrapper for the Digitalstrom Server
 
 A simple wrapper based on promises.
